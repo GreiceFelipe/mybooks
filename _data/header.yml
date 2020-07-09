@@ -1,0 +1,4 @@
+home:
+    image: '/assets/images/home-bg.jpg'
+about:
+    image: '/assets/images/about-bg.jpg'
