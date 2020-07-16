@@ -2,3 +2,9 @@ home:
     image: '/assets/images/home-bg.jpg'
 about:
     image: '/assets/images/about-bg.jpg'
+contact:
+    image: '/assets/images/contact-bg.jpg'
+authors:
+    image: '/assets/images/authors-bg.jpg'
+author:
+    image: '/assets/images/authors-bg.jpg'
