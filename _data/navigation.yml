@@ -1,10 +1,8 @@
 - name: Home
   link: /
-- name: Sobre
-  link: /about.html
-- name: Livros
-  link: /books.html
 - name: Autores
   link: /authors.html
+- name: Sobre
+  link: /about.html
 - name: Contato
   link: /contact.html
