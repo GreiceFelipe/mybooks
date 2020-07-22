@@ -5,11 +5,10 @@ layout: default
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
       <h1>{{ page.name }}</h1>
-      <h2>{{ page.position }}</h2>
 
       {{ content }}
 
-      <h2>Posts</h2>
+      <h2>Livros que eu li:</h2>
       <ul>
         {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
         {% for post in filtered_posts %}
