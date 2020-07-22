@@ -1,14 +1,21 @@
 ---
-title: authors
+title: Autores
+subtitle: Os autores dos livros que li
+locale: authors
 ---
-<h1>Authors</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
 
-<ul>
-  {% for author in site.authors %}
-    <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+      <ul>
+        {% for author in site.authors %}
+          <li>
+            <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+            <p>{{ author.content | markdownify }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+      
+    </div>
+  </div>
+</div>
