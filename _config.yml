@@ -27,3 +27,8 @@ defaults:
         path: ""
       values:
         layout: "default"
+
+# Site settings
+title: "Diário de Leitura"
+baseurl: "/mybooks"
+url: "https://greicefelipe.github.io/"
