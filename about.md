@@ -2,6 +2,7 @@
 title: Sobre o Blog
 subtitle: Porque um Blog de livros ?
 locale: about
+layout: about
 ---
 
 
