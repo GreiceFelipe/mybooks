@@ -4,17 +4,20 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
-    <h1>{{ page.title }}</h1>
+      <blockquote> Lido em {{ page.date | date: "%d/%m/%Y" }} </blockquote>
+      </p>
+      <h1>{{ page.title }}</h1>
+      <p>
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+          <a href="{{ site.baseurl }}/{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+      </p>
+      <blockquote>
+        <p>Ano {{ page.book_year }} /  páginas {{ page.book_pages }} - Editora {{ page.publishing }} </p>
+      </blockquote>
 
-    <p>
-      {{ page.date | date_to_string }}
-      {% assign author = site.authors | where: 'short_name', page.author | first %}
-      {% if author %}
-        - <a href="{{ site.baseurl }}/{{ author.url }}">{{ author.name }}</a>
-      {% endif %}
-    </p>
-
-    {{ content }}
+      {{ content }}
 
     </div>
   </div>

@@ -1,0 +1,11 @@
+---
+short_name: Tori
+name: Tori Telfer
+locale: author
+---
+TORI TELFER é escritora e editora, e seu trabalho já apareceu na Salon, Vice, 
+Jezebel, The Awl, The Hairpin, Good Magazine, entre outros. Ela trabalhou como 
+editora de revistas infantis, revisora acadêmica, ghostwriter corporativa, professora 
+de redação e redatora publicitária voluntária; também rodou salões de muitos eventos 
+deslumbrantes servindo tira-gostos. Escreveu, dirigiu e produziu peças independentes 
+em Chicago e Los Angeles. Formou-se em Redação Criativa na Northwestern University.

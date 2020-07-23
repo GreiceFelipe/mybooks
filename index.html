@@ -12,7 +12,7 @@ locale: home
           <div class="post-preview">
             <a href="{{ site.baseurl }}/{{ post.url }}">
               <h2 class="post-title">
-                {{ site.title }}
+                {{ post.title }}
               </h2>
               <h3 class="post-subtitle">
                 {{ post.excerpt }}
@@ -21,7 +21,7 @@ locale: home
             {% assign author = site.authors | where: 'short_name', post.author | first %}
             <p class="post-meta">Autor do Livro
               <a href="{{ site.baseurl }}/{{ author.url }}">{{ author.short_name }}</a>
-              Postado em  {{ post.date | date: "%m/%d/%Y" }}</p>
+              Lido em  {{ post.date | date: "%d/%m/%Y" }}</p>
           </div>
           <hr>
         {% endfor %}  
