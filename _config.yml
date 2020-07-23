@@ -1,7 +1,7 @@
 plugins:
   - jekyll-paginate
 
-paginate: 1
+paginate: 5
 paginate_path: "/page:num/"
 
 collections:
@@ -27,3 +27,8 @@ defaults:
         path: ""
       values:
         layout: "default"
+
+# Site settings
+title: "Diário de Leitura"
+baseurl: "/mybooks"
+url: "https://greicefelipe.github.io/"

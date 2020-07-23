@@ -10,7 +10,7 @@ locale: home
       <div class="col-lg-8 col-md-10 mx-auto">
         {% for post in paginator.posts %}
           <div class="post-preview">
-            <a href="{{ post.url }}">
+            <a href="{{ site.baseurl }}/{{ post.url }}">
               <h2 class="post-title">
                 {{ post.title }}
               </h2>
@@ -18,17 +18,15 @@ locale: home
                 {{ post.excerpt }}
               </h3>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">{{ post.author }}</a>
-              on {{ post.date | date: "%-d %B, %Y" }}</p>
+            {% assign author = site.authors | where: 'short_name', post.author | first %}
+            <p class="post-meta">Autor do Livro
+              <a href="{{ site.baseurl }}/{{ author.url }}">{{ author.short_name }}</a>
+              Lido em  {{ post.date | date: "%d/%m/%Y" }}</p>
           </div>
           <hr>
         {% endfor %}  
 
         <!-- Pager -->
-        <!-- <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div> -->
         {% if paginator.total_pages > 1 %}
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">

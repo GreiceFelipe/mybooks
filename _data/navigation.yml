@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link:  /mybooks/index.html
 - name: Autores
-  link: /authors.html
+  link: /mybooks/authors.html
 - name: Sobre
-  link: /about.html
+  link: /mybooks/about.html
 - name: Contato
-  link: /contact.html
+  link: /mybooks/contact.html
