@@ -1,6 +1,6 @@
 ---
-title: Sobre mim
-subtitle: Isso é o que eu sou
+title: Sobre o Blog
+subtitle: Porque um Blog de livros ?
 locale: about
 ---
 
