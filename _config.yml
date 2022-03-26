@@ -27,5 +27,4 @@ defaults:
 # Site settings
 title: "Diário de Leitura"
 baseurl: "/mybooks"
-permalink: /:collection/:name
 url: "https://greicefelipe.github.io/"
