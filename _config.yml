@@ -28,3 +28,4 @@ defaults:
 title: "Diário de Leitura"
 baseurl: "/mybooks"
 url: "https://greicefelipe.github.io/"
+permalink: /:categories/:title:output_ext
