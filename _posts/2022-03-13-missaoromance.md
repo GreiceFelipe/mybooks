@@ -19,7 +19,7 @@ Mais um livro que li pois foi escolhido como leitura do mês em um dos grupos qu
 
 ## E afinal o que eu achei ?
 
-Gostei mas nem tanto.... :warning: *e esse preciso alertar que tem spoilers* :warning:
+Gostei mas nem tanto.... <strong style="color: teal;">e esse preciso alertar que tem spoilers</strong>
 
 
 A história como um todo foi bem legal apesar de uns pontos ter me irritado um pouco. Pra mim ficou muito claro desde o início que a amiga dela tava na lista de pessoas abusadas pelo Royce. Só pelo jeito que ela falou quando a Liv comentou e disse que ia atrás da lista. A Liv de fato foi muito insensível ao tratar as mulheres que esconderam o abuso, achando que era super fácil algo que é bem difícil. Sobre a mentira do Mark era uma mentira super plausível dele contar visto quem era o pai e a mania das pessoas acharem que os filhos deram iguais aos pais. Fora que ele mentiu para todos por vergonha e alecrim dourado achava que teria que saber de cara a verdade... AFF sendo insensível de novo. Gostei do final, mas fiquei na dúvida eles foram morar onde ? A fazendinha se
